@@ -15,6 +15,7 @@ app.use(morgan('dev'));
 app.get('/',function(req, res, next){
     res.send('Bienvenido a Node JS...!');
 });
+
 app.use('/api/auth', authRoutes);
 app.use('/api/auth/users', userRoutes);
 app.use('/api/auth/matricula' , matriculaRoutes);

@@ -10,4 +10,5 @@ router.delete("/:id" ,checkToken, matCtr.delMatricula)
 router.post("/", checkToken, matCtr.createMatricula);
 router.put("/:id" ,checkToken, matCtr.updateMatricula)
 
+
 export default router;

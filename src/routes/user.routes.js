@@ -12,4 +12,5 @@ router.post('/create' , userCtr.createUser);
 router.put('/:id' ,checkToken, userCtr.updateUser);
 
 
+
 export default router;
