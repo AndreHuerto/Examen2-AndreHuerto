@@ -8,4 +8,3 @@ router.get('/' ,checkToken, detallectr.readAllDetalle);
 
 
 export default router;
-//a//

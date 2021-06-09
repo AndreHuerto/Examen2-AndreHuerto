@@ -44,6 +44,7 @@ export const updateUser = async(req, res)=>{
         return res.status(500).json('Internal Server error...!');
     }
 }
+
 export const createUser = async(req, res)=>{
     try {
         const{idempleado, username, password ,idrol } = req.body;
